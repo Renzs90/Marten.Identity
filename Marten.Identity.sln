@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marten.Identity", "src\Marten.Identity\Marten.Identity.csproj", "{9BDFAB22-1D85-48DB-9423-79549CD276DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F403A1B1-1876-477C-A8E3-215BC27F4063}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marten.Identity.IntegrationTests", "tests\Marten.Identity.IntegrationTests\Marten.Identity.IntegrationTests.csproj", "{151BB843-B70C-4A72-88C4-61D0BB8F4F4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marten.Identity.UnitTests", "tests\Marten.Identity.UnitTests\Marten.Identity.UnitTests.csproj", "{65D00F63-69F6-49B0-9080-9DCFE393DB3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BDFAB22-1D85-48DB-9423-79549CD276DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BDFAB22-1D85-48DB-9423-79549CD276DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BDFAB22-1D85-48DB-9423-79549CD276DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BDFAB22-1D85-48DB-9423-79549CD276DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{151BB843-B70C-4A72-88C4-61D0BB8F4F4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{151BB843-B70C-4A72-88C4-61D0BB8F4F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{151BB843-B70C-4A72-88C4-61D0BB8F4F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{151BB843-B70C-4A72-88C4-61D0BB8F4F4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65D00F63-69F6-49B0-9080-9DCFE393DB3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65D00F63-69F6-49B0-9080-9DCFE393DB3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65D00F63-69F6-49B0-9080-9DCFE393DB3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65D00F63-69F6-49B0-9080-9DCFE393DB3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{151BB843-B70C-4A72-88C4-61D0BB8F4F4B} = {F403A1B1-1876-477C-A8E3-215BC27F4063}
+		{65D00F63-69F6-49B0-9080-9DCFE393DB3C} = {F403A1B1-1876-477C-A8E3-215BC27F4063}
+	EndGlobalSection
+EndGlobal
